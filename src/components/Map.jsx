@@ -3,7 +3,6 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 
 function Map({ address }) {
-  console.log(address)
 
   if(address.latitude === undefined){
     return <div>Loading...</div>
